@@ -21,6 +21,11 @@ A Flask-based web application to perform DNA sequence validation and NCBI BLAST 
    pip install -r requirements.txt
    ```
 
+## Live Demo
+
+The application is deployed and available at:
+[https://uw-code-excercise-705847116292.europe-west1.run.app/](https://uw-code-excercise-705847116292.europe-west1.run.app/)
+
 ## Running the Application Locally
 
 1. Start the Flask server:
@@ -32,8 +37,6 @@ A Flask-based web application to perform DNA sequence validation and NCBI BLAST 
    http://127.0.0.1:8080
    ```
 
-
-
 ## Project Structure
 - `app.py`: Main Flask application with dynamic port handling.
 - `Dockerfile`: Containerization setup using Python 3.11-slim.
@@ -42,7 +45,6 @@ A Flask-based web application to perform DNA sequence validation and NCBI BLAST 
 - `templates/`: HTML interface using Bootstrap 5.
 
 ## Technical Implementation
-... (rest of the sections remain same) ...
 
 This application is architected to prioritize user experience and biological data integrity.
 
