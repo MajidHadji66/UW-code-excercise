@@ -59,7 +59,7 @@ def index():
         
         try:
             # This is the slow part
-            result_handle = NCBIWWW.qblast("blastn", "nt", query_sequence)
+            result_handle = NCBIWWW.qblast("blastn", "core_nt", query_sequence)
             blast_record = NCBIXML.read(result_handle)
             
             results = []

@@ -45,7 +45,7 @@ The application implements a robust multi-stage validation for DNA sequences:
 
 ### 2. Integration with NCBI BLAST
 The core analysis utilizes the **NCBI BLAST API** via `NCBIWWW.qblast`. 
-- **Parameters**: Currently configured for `blastn` (nucleotide-nucleotide BLAST) against the `nt` (non-redundant) database.
+- **Parameters**: Currently configured for `blastn` (nucleotide-nucleotide BLAST) against the `core_nt` (Core Nucleotide) database.
 - **Data Parsing**: XML results are parsed using `NCBIXML` to extract critical metrics such as **Accession ID**, **E-value**, and **Percent Identity**.
 
 ### 3. Key Design Decisions
